@@ -1,0 +1,198 @@
+.auto-style1 {
+    height: 30px;
+    background-color: #58BDB8;
+    color: #fff;
+}
+
+.DivMain {
+    width: 100%;
+    min-height: 630px;
+}
+
+.divContent {
+    width: 1300px;
+    min-height: 495px;
+    margin-left: 30px;
+}
+
+.divheader {
+    height: 45px;
+    margin: 0;
+    margin-top: 0px;
+    background-color: rgba(86, 137, 177, 0.63);
+    position: relative;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.divFooter {
+    height: 30px;
+    width: 100%;
+    background-color: #165686;
+    text-align: center;
+    color: #D8D8D8;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+/* .btn {
+    min-width: 110px;
+    color: #6B6A6A;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px;
+    border: 1px solid #878787;
+    background-color: #8EB5FD;
+    color: #fff;
+} */
+
+.btn{
+   border-color: #c4ced7;
+    background-color: #f7f8f9;
+    background-image: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #0572ce;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+input#btnUpload {
+}
+
+.drpstyle {
+    width: 300px;
+    height: 25px;
+}
+
+.drpMinstyle {
+    width: 120px;
+    height: 25px;
+}
+
+.FixedHeader {
+    position: absolute;
+    font-weight: bold;
+}
+
+.Grdheader {
+    background-color: #53A8A4;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Bookman Old Style';
+    padding-bottom: 32px;
+    padding-top: 3px;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+}
+
+.grdheader1 {
+    background-color: #53A8A4;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Bookman Old Style';
+    font-size: 15px;
+}
+
+.txtBox {
+    height: 22px;
+    width: 310px;
+}
+
+.overlay {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1125px;
+    height: 687px;
+    background-color: #fff;
+    margin-left: 160px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    border-top: 25px solid #D6DFE6;
+    /*border-bottom: 1px solid #878787;
+    border-right: 1px solid #878787;
+    border-left: 1px solid #878787;*/
+    z-index: 1000;
+}
+
+#spnSummaryRequest {
+      width: 35px;
+    height: 40px;
+    float: left;
+    border-bottom: 1px solid #D6DFE6;
+    border-left: 1px solid #D6DFE6;
+    border-top: 1px solid #D6DFE6;
+    border-right: 1px solid #fff;
+    margin-top: -2px;
+    margin-left: 1px;
+}
+
+#spnSummaryDetails {
+    float: left; 
+    width: 35px;   
+    height: 40px; 
+     border-bottom: 1px solid #D6DFE6;
+    border-left: 1px solid #D6DFE6;
+    border-top: 1px solid #D6DFE6;
+    border-right: 1px solid #fff;
+    background-color:gray;
+    margin-left: 1px;
+}
+
+.radiobtn {
+    padding-top: 20px;
+    font-family: 'Bookman Old Style';
+}
+
+.drpdown {
+    padding-top: 10px;
+    font-family: 'Bookman Old Style';
+}
+
+.grdview {
+    font-family: 'Bookman Old Style';
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.Label1 {
+    font-family: 'Eras ITC';
+}
+
+
+
+
+
+.xmlTable {
+    float: left;
+}
+
+
+.divWaiting {
+    position: absolute;
+    background-color: #FAFAFA;
+    z-index: 2147483647 !important;
+    opacity: 0.8;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+}
+
+.DVHeader {
+    padding: 7px 3px 9px 8px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: inherit;
+    background-color: #eee;
+}

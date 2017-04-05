@@ -1,0 +1,30 @@
+<div ng-include="global.navUrl" src=""></div>
+<div class="row" ng-controller="navController">
+<!-- <div class="loader" ng-hide="loader"><img id="spinner" ng-src="images/spinner.gif"></div> -->
+<div class="loading" ng-hide="loader">
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+  <div class="loading-bar"></div>
+</div>
+<!-- <div class="load-bar" ng-hide="loader">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</div> -->
+	<div class="col-sm-4 col-sm-push-3 well"  ng-show="loader">
+		<h3>User Profile</h3>
+		<hr>
+		
+			<div ng-init="viewprofile()">
+				<div class="form-group">
+					<label>First Name:</label> <label>{{users.fname}}</label><br><hr>
+					<label>Last Name:</label> <label>{{users.lname}}</label><br><hr>
+					<label>Email:</label> <label>{{users.email}}</label><br><hr>
+					<label>Mobile:</label> <label>{{users.mobile}}</label><br><hr>
+					<label>Reward Point:</label> <label>{{user.rewardpoints}}</label> <a
+						href="#/points">click here to genrate the voucher</a>
+				</div>			
+		</div>
+	</div>
+	</div>

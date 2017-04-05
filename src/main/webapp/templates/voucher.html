@@ -1,0 +1,23 @@
+<div ng-include="global.navUrl" src=""></div>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br>
+<div class="loader" ng-show="loader"><img id="spinner" ng-src="images/spinner.gif"></div>
+<div class="row" ng-hide="loader">
+<div class="col-sm-4 col-sm-push-3 well">
+<p>{{msg}}</p>
+<h3>Generate Voucher</h3>
+<form name="rewardpointForm" ng-submit="rewardPointReport(rewardpointForm)" novalidate="novalidate">
+<div class="form-group" ng-class="{'has-error' :rewardpointForm.rewardpoint.$invalid && formSubmitted}">
+<input type="number" name="rewardpoint" ng-model="rewardpoint" placeholder="Enter reward points for voucher" class="form-control" required>
+<span style="color:red" ng-show="rewardpointForm.rewardpoint.$dirty && rewardpointForm.rewardpoint.$invalid">
+    Reward Point is required.</span>
+</div>
+<input type="submit" name="save" value="Generate Voucher" class="btn btn-success"
+ ng-disabled="rewardpointForm.rewardpoint.$dirty && rewardpointForm.rewardpoint.$invalid"/>
+</form>
+</div>
+</div>

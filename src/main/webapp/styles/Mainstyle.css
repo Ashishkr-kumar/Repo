@@ -1,0 +1,61 @@
+/* .btn {
+    background: #f7f7f7;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #777;
+    border: 1px solid #808080;
+    margin: 5px;
+    font-family: Arial;
+
+} */
+
+.btn{
+white-space: nowrap;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #000000;
+    text-shadow: 0px 1px 0px #FFFFFF;
+    font-weight: bold;
+    border: 1px solid #c4ced7;
+    border-radius: 3px;
+    background-color: transparent;
+    background-image: -webkit-linear-gradient(bottom, #E4E8EA 0%, #E8EBED 50%, #f1f3f4 96.36%, #FFFFFF 100%);
+    padding: 0px 2px;
+    min-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 4px;
+    padding-left: 5px;
+}
+
+#MainDiv {
+    margin-left: 50px;
+    min-height: 600px;
+    margin-right: 50px;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+.drp-style {
+    width: 200px;
+    height: 20px;
+    font-family: Arial;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.inputType {
+    width: 160px;
+    font-family: Arial;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+.lbltxt {
+     font-size: 13px;
+    font-weight: bold;
+      font-family: Arial;
+      
+
+}
